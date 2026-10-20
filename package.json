@@ -1,0 +1,23 @@
+{
+  "name": "ink-api-types",
+  "version": "0.1.0",
+  "description": "TypeScript types for the WICG Ink API (navigator.ink, DelegatedInkTrailPresenter), missing from lib.dom",
+  "types": "index.d.ts",
+  "files": [
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "tsc -p tsconfig.json"
+  },
+  "keywords": [
+    "typescript",
+    "types",
+    "ink-api",
+    "delegated-ink-trail",
+    "pointer-events",
+    "wicg"
+  ],
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
